@@ -1,0 +1,18 @@
+<></>= 태그
+<strong>문장</strong> = 글자 강조(진하게)
+<u>문장</u> = underline(밑줄)
+<h1>~<h6> = 제목 태그 (글자 크기,줄바꿈)
+<br> = 줄바꿈
+*<p></p> = paragraph(문단,br보다 많이 씀) *css로 줄 간격 조정 가능=margin
+<img> = 이미지 삽입 *속성(src=" ":어떤 이미지 , width=" ":크기)
+*<li></li> = list(목차)
+*<ul></ul> = 목차 그룹 (list 앞에 쓰임)
+<ol></ol> = 목차 자동 넘버링 (list 앞에 쓰임)
+<title></title> = 탭 제목(표지 느낌)
+<meta charset="utf-8"> = utf8로 읽게 하기(한글이 안나올때)
+<!DOCTYPE html> = 최상단 태그(html문서를 시작할때 무조건 써야한다)
+*<html></html> = 상단 태그
+*<head></head> = 타이틀 앞에 쓰기
+*<body></body> = 본문
+<a href=" "></a> = 링크
+target="_blank" = 링크를 새탭으로 열기 (href 뒤에 쓰기)
