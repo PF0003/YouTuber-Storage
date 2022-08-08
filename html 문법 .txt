@@ -16,3 +16,10 @@
 *<body></body> = 본문
 <a href=" "></a> = 링크
 target="_blank" = 링크를 새탭으로 열기 (href 뒤에 쓰기)
+<input type="checkbox"> = 체크박스
+<iframe></iframe> = 동영상 삽입(width="넓이" height="높이" src="url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+<!-- --> = 주석 
+class="" = 그룹 지정 (태그 선택 보다 상위)
+.class = class에 변화를 줄 때 (ex:class="saw" .saw{})
+id="" 우선 그룹 지정 (class 선택 보다 상위)
+#id = id에 변화를 줄 때 (선택자 우선순위=tag<class<id)

@@ -1,0 +1,8 @@
+<style></style> = html에서 css언어를 사용할때 사용
+{} = css 태그
+바꾸길 원하는 태그 뒤에 {color:색상;} = 폰트 색상 변경 (ex:a{color:색상;})
+<tag style=""> = html 태그 안에서 css언어를 사용할때 
+text-decoration: none; = 텍스트의 밑줄을 삭제하고 싶을때
+text-decoration: underline; = 밑줄을 넣고 싶을때
+font-size: = 텍스트 크기 조절 ( %,px 등)
+text-align: = 텍스트 정렬 (center,left,right 등)
