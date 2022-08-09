@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html>
+<meta charset="utf-8">
 <style>
+body{margin:0px;}    
 a{color:rgb(0, 0, 0); text-decoration:none;}
-h1{font-size:45px; text-align:center;}
-.banner{color:rgb(163, 192, 106);} 
+h1{font-size:45px; text-align:center; border-bottom:2px solid black; margin:0px; padding:20px;}
+ul{border-right:2px solid black; width:300px; margin:0px; padding:20px; font-size:22px; list-style:none;}
+#grid ul{padding-left:32px;}
+.banner{color:rgb(163, 192, 106);}
+#grid{display:grid; grid-template-columns:300px 1fr;}
+#article{padding-left:92px;}
 </style>
 <head><title>유튜버 추천소 - 노캠방</title></head>
 <body>
-<h1><strong><a href="index.html" class="banner">유튜버 추천소</a></strong></h1>    
-<ul>
-    <li><a href="1.html">1.캠방</a></li>
-    <li><a href="2.html">2.노캠방</a></li>
-    <li><a href="3.html">3.버츄얼</a></li>
-</ul>
-<h2><strong>노캠방</strong></h2>
-<ul>
-    <li><a href="b1.game ncam.html">1.게임</a></li>
-    <li><a href="b2.radio ncam.html">2.라디오</a></li>
-    <li><a href="b3.music ncam.html">3.음악</a></li>
-    <li><a href="b4.art ncam.html">4.그림</a></li>
-</ul>
+<h1><strong><a href="index.html" class="banner">유튜버 추천소</a></strong></h1>
+<div id="grid">   
+    <ul>
+        <li><a href="1.html">1.캠방</a></li>
+        <li><a href="2.html">2.노캠방</a></li>
+        <li><a href="3.html">3.버츄얼</a></li>
+    </ul>
+    <div id="article">
+    <h2><strong>노캠방</strong></h2>
+    <ol>
+        <li><a href="b1.game ncam.html">게임</a></li>
+        <li><a href="b2.radio ncam.html">라디오</a></li>
+        <li><a href="b3.music ncam.html">음악</a></li>
+        <li><a href="b4.art ncam.html">그림</a></li>
+    </ol>
+    </div>
+</div>
 </body>
 </html>
